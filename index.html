@@ -73,7 +73,9 @@ I&#39;m Bapi.
 
 Anyway, let&#39;s start.
 
-&lt;div class=&quot;arrows&quot;&gt;[[&gt;&gt;&gt;|Midnight]]&lt;/div&gt;</tw-passagedata><tw-passagedata pid="3" name="Midnight" tags="" position="409,486" size="100,100"> &lt;img src=&quot;https://i.imgur.com/pn72YK7.png&quot;/&gt;
+&lt;div class=&quot;arrows&quot;&gt;[[&gt;&gt;&gt;|Midnight]]&lt;/div&gt;
+
+(track:&quot;full-party&quot;,&quot;playwhenpossible&quot;)</tw-passagedata><tw-passagedata pid="3" name="Midnight" tags="" position="409,486" size="100,100"> &lt;img src=&quot;https://i.imgur.com/pn72YK7.png&quot;/&gt;
 
 Midnight.
 
@@ -86,7 +88,7 @@ You are currently playing (link:&quot;Final Fantasy XIV&quot;)[Final Fantasy, (t
 
 &lt;div class=&quot;arrows&quot;&gt;[[&gt;&gt;&gt;|Night]]&lt;/div&gt;
 
-(track:&quot;start-game&quot;,&quot;playwhenpossible&quot;, &quot;fadein&quot;,2)</tw-passagedata><tw-passagedata pid="5" name="Delubrum" tags="" position="406,908" size="100,100">&lt;img src=&quot;https://i.imgur.com/E6bgyqR.png&quot;&gt;
+(track:&quot;start-game&quot;,&quot;fadein&quot;)</tw-passagedata><tw-passagedata pid="5" name="Delubrum" tags="" position="406,908" size="100,100">&lt;img src=&quot;https://i.imgur.com/E6bgyqR.png&quot;&gt;
 
 You are currently raiding in (link:&quot;Delubrum Reginae&quot;)[Delubrum Reginae (it means Temple of the Queen in Latin)](click:&quot;Temple of the Queen&quot;)[(you had to google Delubrum to know what it means)].
 
@@ -94,13 +96,13 @@ You’ve already done this content about (link:&quot;sixty times&quot;)[sixty ti
 
 &lt;div class=&quot;arrows&quot;&gt;[[&gt;&gt;&gt;|Fight]]&lt;/div&gt;
 
-(track:&quot;raid&quot;,&quot;playwhenpossible&quot;)</tw-passagedata><tw-passagedata pid="6" name="Night" tags="" position="408,778" size="100,100"> &lt;img src=&quot;https://i.imgur.com/pn72YK7.png&quot;/&gt;
+(track:&quot;raid&quot;,&quot;fadein&quot;)</tw-passagedata><tw-passagedata pid="6" name="Night" tags="" position="408,778" size="100,100"> &lt;img src=&quot;https://i.imgur.com/pn72YK7.png&quot;/&gt;
 
 It’s the middle of the night but there is still a lot of people around. (click:&quot;people&quot;)[(This game never sleeps.)](click:&quot;never&quot;)[(You know about people that put their characters to bed and never actually log out.)]
 
 &lt;div class=&quot;arrows&quot;&gt;[[&gt;&gt;&gt;|Delubrum]]&lt;/div&gt;
 
-(track:&quot;start-game&quot;, &quot;fadeout&quot;, 2)</tw-passagedata><tw-passagedata pid="7" name="Fight" tags="" position="405,1058" size="100,100">&lt;img src=&quot;https://i.imgur.com/fIk0Wc0.png&quot;&gt; (click:&quot;Fight against the giant thing&quot;)[(track:&quot;confirm&quot;,&quot;playwhenpossible&quot;)&lt;img src=&quot;https://i.imgur.com/3JiGiye.png&quot;&gt;](click:&quot;Keep fighting&quot;)[(track:&quot;confirm&quot;,&quot;stop&quot;)(track:&quot;confirm&quot;,&quot;playwhenpossible&quot;)&lt;img src=&quot;https://i.imgur.com/3JiGiye.png&quot;&gt;]
+(track:&quot;start-game&quot;, &quot;fadeout&quot;, 2)</tw-passagedata><tw-passagedata pid="7" name="Fight" tags="" position="405,1058" size="100,100">&lt;img src=&quot;https://i.imgur.com/fIk0Wc0.png&quot;&gt; (click:&quot;Fight against the giant thing&quot;)[(track:&quot;attack&quot;,&quot;playwhenpossible&quot;)&lt;img src=&quot;https://i.imgur.com/3JiGiye.png&quot;&gt;](click:&quot;Keep fighting&quot;)[(track:&quot;attack&quot;,&quot;stop&quot;)(track:&quot;attack&quot;,&quot;playwhenpossible&quot;)&lt;img src=&quot;https://i.imgur.com/3JiGiye.png&quot;&gt;]
 
 (link:&quot;Fight against the giant thing&quot;)[Fight against the giant thing
 
@@ -196,7 +198,7 @@ It&#39;s getting late…
 
 	(link:&quot;...&quot;)[...
 
-	(link:&quot;...&quot;)[...
+	(link:&quot;...&quot;)[(track:&quot;alarm&quot;,&quot;playwhenpossible&quot;,&quot;fadein&quot;,2)...
 	
 		[[... Morning...|Morning]]
 
@@ -208,7 +210,7 @@ It&#39;s getting late…
 
 (link:&quot;You could still…&quot;)[You could still…
 
-(track:&quot;switch-target&quot;,&quot;playwhenpossible&quot;)(link:&quot;Get some clusters in Bozja for Léa&quot;)[(track:&quot;switch-target&quot;,&quot;stop&quot;)(track:&quot;switch-target&quot;,&quot;playwhenpossible&quot;)(link:&quot;Try getting this specific piece of gear you want for a future outfit&quot;)[(track:&quot;switch-target&quot;,&quot;stop&quot;)(track:&quot;switch-target&quot;,&quot;playwhenpossible&quot;)(link:&quot;Continue your quests for your relic weapons&quot;)[...
+(link:&quot;Get some clusters in Bozja for Léa&quot;)[(track:&quot;switch-target&quot;,&quot;playwhenpossible&quot;)(link:&quot;Try getting this specific piece of gear you want for a future outfit&quot;)[(track:&quot;switch-target&quot;,&quot;stop&quot;)(track:&quot;switch-target&quot;,&quot;playwhenpossible&quot;)(link:&quot;Continue your quests for your relic weapons&quot;)[(track:&quot;switch-target&quot;,&quot;stop&quot;)(track:&quot;switch-target&quot;,&quot;playwhenpossible&quot;)...
 
 &lt;div class=&quot;arrows&quot;&gt;[[&gt;&gt;&gt;|Very late]]&lt;/div&gt;]]]
 
@@ -218,7 +220,8 @@ Time to get ready for the day!
 
 You’re eating your (link:&quot;breakfast&quot;)[breakfast (most of the time)], brushing your teeth, doing all the usual morning stuff.
 
-&lt;div class=&quot;arrows&quot;&gt;[[&gt;&gt;&gt;|Computer]]&lt;/div&gt;</tw-passagedata><tw-passagedata pid="27" name="Computer" tags="" position="360,3002" size="100,100">&lt;img src=&quot;https://i.imgur.com/004kryh.png&quot; alt=&quot;giovanni&quot;&gt;
+&lt;div class=&quot;arrows&quot;&gt;[[&gt;&gt;&gt;|Computer]]&lt;/div&gt;
+(track:&quot;alarm&quot;,&quot;fadeout&quot;,2)</tw-passagedata><tw-passagedata pid="27" name="Computer" tags="" position="360,3002" size="100,100">&lt;img src=&quot;https://i.imgur.com/004kryh.png&quot; alt=&quot;giovanni&quot;&gt;
 
 You turn on your computer.
 
@@ -287,7 +290,7 @@ You greet your friends in the chat, and start your daily routine.
 
 (link:&quot;You could…&quot;)[You could…
 
-(masteraudio: &#39;stopall&#39;)(track:&quot;switch-target&quot;,&quot;play&quot;)(link:&quot;Reorganize your inventory&quot;)[(masteraudio: &#39;stopall&#39;)(track:&quot;switch-target&quot;,&quot;play&quot;)(link:&quot;Gather some resources&quot;)[(masteraudio: &#39;stopall&#39;)(track:&quot;switch-target&quot;,&quot;play&quot;)(link:&quot;Spend some time in Eureka&quot;)[So many things to do!
+(link:&quot;Reorganize your inventory&quot;)[(track:&quot;switch-target&quot;,&quot;play&quot;)(link:&quot;Gather some resources&quot;)[(track:&quot;switch-target&quot;,&quot;stop&quot;)(track:&quot;switch-target&quot;,&quot;play&quot;)(link:&quot;Spend some time in Eureka&quot;)[(track:&quot;switch-target&quot;,&quot;stop&quot;)(track:&quot;switch-target&quot;,&quot;play&quot;)So many things to do!
 
 &lt;div class=&quot;arrows&quot;&gt;[[&gt;&gt;&gt;|Someone]]&lt;/div&gt;]]]
 
@@ -341,7 +344,10 @@ Back to the game!
 
 5pm. The hour the day resets on Final Fantasy. Time to get all you daily rewards, starting as usual with the (link:&quot;tribe quests.&quot;)[tribe quests (Why do they have to be so boring?)]
 
-&lt;div class=&quot;arrows&quot;&gt;[[&gt;&gt;&gt;|Pretending]]&lt;/div&gt;</tw-passagedata><tw-passagedata pid="43" name="Pretending" tags="" position="446,4802" size="100,100">Soon, other people will be back from their day at work, and you’ll be able to talk. 
+&lt;div class=&quot;arrows&quot;&gt;[[&gt;&gt;&gt;|Pretending]]&lt;/div&gt;
+
+(track:&quot;clock-ticking&quot;, &quot;playwhenpossible&quot;)
+(track:&quot;clock-ticking&quot;, &quot;loop&quot;, true)</tw-passagedata><tw-passagedata pid="43" name="Pretending" tags="" position="446,4802" size="100,100">Soon, other people will be back from their day at work, and you’ll be able to talk. 
 
 (click:&quot;talk&quot;)[(Pretending is tiring.)]
 
@@ -371,7 +377,7 @@ I think i&#39;m allowed to since everything is wrong and I can&#39;t go outside,
 
 …
 
-&lt;div class=&quot;arrows&quot;&gt;[[&gt;&gt;&gt;|Silence]]&lt;/div&gt;]]</tw-passagedata><tw-passagedata pid="52" name="Time" tags="" position="437.2724609375,6117.38134765625" size="100,100">&lt;img src=&quot;https://i.imgur.com/JTmTEaa.png&quot;&gt;
+&lt;div class=&quot;arrows&quot;&gt;[[&gt;&gt;&gt;|Silence]]&lt;/div&gt;]]</tw-passagedata><tw-passagedata pid="52" name="Time" tags="" position="724.2724609375,6046.38134765625" size="100,100">&lt;img src=&quot;https://i.imgur.com/JTmTEaa.png&quot;&gt;
 
 Oh would you look at the time, it’s already 6pm!
 
@@ -380,8 +386,9 @@ Another hard day of work is done, you can finally relax and play video games.
 [[Yeah, sure, let&#39;s do that! (END)|Home]]
 
 
-(track:&quot;log-out&quot;,&quot;play&quot;)</tw-passagedata><tw-passagedata pid="53" name="Silence" tags="" position="503.2724609375,5934.38134765625" size="100,100">[[...|Time]]
-(track:&quot;fire&quot;,&quot;fadeout&quot;, 2)</tw-passagedata><tw-passagedata pid="54" name="Home" tags="" position="400,57" size="100,100">&lt;h1&gt;Just another day&lt;/h1&gt;
+(track:&quot;log-out&quot;,&quot;fadein&quot;)</tw-passagedata><tw-passagedata pid="53" name="Silence" tags="" position="503.2724609375,5934.38134765625" size="100,100">[[...|Time]]
+(track:&quot;fire&quot;,&quot;fadeout&quot;, 2)
+(track:&quot;clock-ticking&quot;,&quot;fadeout&quot;, 3)</tw-passagedata><tw-passagedata pid="54" name="Home" tags="" position="400,57" size="100,100">&lt;h1&gt;Just another day&lt;/h1&gt;
 Welcome on &lt;i&gt;Just another day&lt;/i&gt;, a casual story about playing video games and enjoying life. Kinda?
 
 Well. You should see it by yourself.
@@ -409,15 +416,17 @@ This is a Twine game so you have to click on the (link:&quot;underline text&quot
 Push buttons</tw-passagedata><tw-passagedata pid="56" name="Buttons1" tags="" position="811.4306335449219,1592.0542449951172" size="100,100">[[&lt;img src=&quot;https://i.imgur.com/hiPPMhN.png&quot;&gt;|Buttons2]] [[&lt;img src=&quot;https://i.imgur.com/GmmrX1o.png&quot;&gt;|Buttons2]] [[&lt;img src=&quot;https://i.imgur.com/30g1T0n.png&quot;&gt;|Buttons2]] [[&lt;img src=&quot;https://i.imgur.com/MeAzI7R.png&quot;&gt;|Buttons2]]
 
 Push more buttons
-(track:&quot;confirm&quot;,&quot;playwhenpossible&quot;)</tw-passagedata><tw-passagedata pid="57" name="Buttons2" tags="" position="772.4306335449219,1718.0542449951172" size="100,100">[[&lt;img src=&quot;https://i.imgur.com/hiPPMhN.png&quot;&gt;|Buttons3]] [[&lt;img src=&quot;https://i.imgur.com/GmmrX1o.png&quot;&gt;|Buttons3]] [[&lt;img src=&quot;https://i.imgur.com/30g1T0n.png&quot;&gt;|Buttons3]] [[&lt;img src=&quot;https://i.imgur.com/MeAzI7R.png&quot;&gt;|Buttons3]]
+(track:&quot;keyboard1&quot;,&quot;playwhenpossible&quot;)</tw-passagedata><tw-passagedata pid="57" name="Buttons2" tags="" position="772.4306335449219,1718.0542449951172" size="100,100">[[&lt;img src=&quot;https://i.imgur.com/hiPPMhN.png&quot;&gt;|Buttons3]] [[&lt;img src=&quot;https://i.imgur.com/GmmrX1o.png&quot;&gt;|Buttons3]] [[&lt;img src=&quot;https://i.imgur.com/30g1T0n.png&quot;&gt;|Buttons3]] [[&lt;img src=&quot;https://i.imgur.com/MeAzI7R.png&quot;&gt;|Buttons3]]
 
 Push all the buttons
-(track:&quot;confirm&quot;,&quot;stop&quot;)(track:&quot;confirm&quot;,&quot;playwhenpossible&quot;)</tw-passagedata><tw-passagedata pid="58" name="Buttons3" tags="" position="634.4306335449219,1768.0542449951172" size="100,100">&lt;img src=&quot;https://i.imgur.com/hiPPMhN.png&quot;&gt;&lt;img src=&quot;https://i.imgur.com/GmmrX1o.png&quot;&gt;&lt;img src=&quot;https://i.imgur.com/30g1T0n.png&quot;&gt;&lt;img src=&quot;https://i.imgur.com/MeAzI7R.png&quot;&gt;
+(track:&quot;keyboard2&quot;,&quot;playwhenpossible&quot;)</tw-passagedata><tw-passagedata pid="58" name="Buttons3" tags="" position="634.4306335449219,1768.0542449951172" size="100,100">&lt;img src=&quot;https://i.imgur.com/hiPPMhN.png&quot;&gt;&lt;img src=&quot;https://i.imgur.com/GmmrX1o.png&quot;&gt;&lt;img src=&quot;https://i.imgur.com/30g1T0n.png&quot;&gt;&lt;img src=&quot;https://i.imgur.com/MeAzI7R.png&quot;&gt;
 
 Cool.
 
 &lt;div class=&quot;arrows&quot;&gt;[[&gt;&gt;&gt;|Great?]]&lt;/div&gt;
-(track:&quot;confirm&quot;,&quot;stop&quot;)(track:&quot;confirm&quot;,&quot;playwhenpossible&quot;)</tw-passagedata><tw-passagedata pid="59" name="hal.tracks" tags="" position="584.2852935791016,206" size="100,100">raid: https://cdn.discordapp.com/attachments/369073037288538114/844947659877515284/FFXIV_FATE01_Start.mp3
+(track:&quot;keyboard1&quot;,&quot;playwhenpossible&quot;)</tw-passagedata><tw-passagedata pid="59" name="hal.tracks" tags="" position="584.2852935791016,206" size="100,100">raid: https://cdn.discordapp.com/attachments/369073037288538114/844947659877515284/FFXIV_FATE01_Start.mp3
+
+attack: https://cdn.discordapp.com/attachments/369073037288538114/845070830181679124/FFXIV_Change_Hotbar.mp3
 
 log-out:https://cdn.discordapp.com/attachments/369073037288538114/844919241978150932/FFXIV_Log_Out.mp3
 
@@ -426,6 +435,8 @@ confirm: https://cdn.discordapp.com/attachments/369073037288538114/8449314762146
 start-game:https://cdn.discordapp.com/attachments/369073037288538114/844919304793489438/FFXIV_Start_Game.mp3
 
 aggro:https://cdn.discordapp.com/attachments/369073037288538114/844919375986556928/FFXIV_Aggro.mp3
+
+full-party:https://cdn.discordapp.com/attachments/369073037288538114/845078251672043520/FFXIV_Full_Party.mp3
 
 switch-target: https://cdn.discordapp.com/attachments/369073037288538114/844921654311387146/FFXIV_Switch_Target.mp3
 
@@ -439,7 +450,15 @@ discord-notif:https://cdn.discordapp.com/attachments/369073037288538114/84492736
 
 apple:https://cdn.discordapp.com/attachments/759465537037271072/844935863255302171/zapsplat_human_eat_bite_apple_single_003_39657.mp3
 
-fire:https://cdn.discordapp.com/attachments/369073037288538114/844950331489910784/audio_hero_Fire_DIGIVJ2_19_355.mp3</tw-passagedata></tw-storydata>
+fire:https://cdn.discordapp.com/attachments/369073037288538114/844950331489910784/audio_hero_Fire_DIGIVJ2_19_355.mp3
+
+alarm:https://cdn.discordapp.com/attachments/369073037288538114/845071650835005460/Samsung_S9_Morning_Glory.mp3
+
+clock-ticking:https://cdn.discordapp.com/attachments/369073037288538114/845075708795289643/Clock-ticking-Turning-4-www.FesliyanStudios.com.mp3
+
+keyboard1:https://cdn.discordapp.com/attachments/758342561575731270/845079801013993492/Mechanical-Keyboard-single-button-presses-9-www.FesliyanStudios.com.mp3
+
+keyboard2:https://cdn.discordapp.com/attachments/758342561575731270/845079802133086298/Mechanical-Keyboard-single-button-presses-8-www.FesliyanStudios.com.mp3</tw-passagedata></tw-storydata>
 <script title="Twine engine code" data-main="harlowe">"use strict";var _slicedToArray=function(){return function(e,t){if(Array.isArray(e))return e;if(Symbol.iterator in Object(e))return function(e,t){var n=[],r=!0,a=!1,i=void 0;try{for(var o,s=e[Symbol.iterator]();!(r=(o=s.next()).done)&&(n.push(o.value),!t||n.length!==t);r=!0);}catch(e){a=!0,i=e}finally{try{!r&&s.return&&s.return()}finally{if(a)throw i}}return n}(e,t);throw new TypeError("Invalid attempt to destructure non-iterable instance")}}(),_typeof="function"==typeof Symbol&&"symbol"==typeof Symbol.iterator?function(e){return typeof e}:function(e){return e&&"function"==typeof Symbol&&e.constructor===Symbol&&e!==Symbol.prototype?"symbol":typeof e};function _defineProperty(e,t,n){return t in e?Object.defineProperty(e,t,{value:n,enumerable:!0,configurable:!0,writable:!0}):e[t]=n,e}function _toConsumableArray(e){if(Array.isArray(e)){for(var t=0,n=Array(e.length);t<e.length;t++)n[t]=e[t];return n}return Array.from(e)}!function(){
 /**
  * @license almond 0.3.3 Copyright jQuery Foundation and other contributors.
