@@ -11,9 +11,8 @@
 <tw-story><noscript><tw-noscript>JavaScript needs to be enabled to play Just another day.</tw-noscript></noscript></tw-story>
 <tw-storydata name="Just another day" startnode="54" creator="Twine" creator-version="2.3.14" ifid="024B84B5-FA5C-44E9-97AA-954B1D8543F2" zoom="1" format="Harlowe" format-version="3.2.2" options="" hidden><style role="stylesheet" id="twine-user-stylesheet" type="text/twine-css">:root{
   --main-bg-color:#FDF9F2;
-  --dark-beige:#EDE4D5;
   --text-color:#3E2D0B;
-  --yellow:#F9D78F;
+  --visited:#6A4F17;
 }
 
 tw-story{
@@ -25,6 +24,14 @@ tw-link, .enchantment-link{
   color:var(--text-color);
   font-weight:200;
   text-decoration:underline;
+}
+
+.visited{
+  color:var(--visited);
+}
+
+.visited:hover{
+  color:var(--text-color);
 }
 
 tw-link:hover, .enchantment-link:hover{
